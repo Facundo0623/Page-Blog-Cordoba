@@ -1,0 +1,166 @@
+*{
+    margin: auto;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a:link , a:visited , a:active {
+    text-decoration: none;
+    transition: .5s;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 228, 196);
+}
+
+header h1 {
+    font-size: 30px;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+header nav ul li a:hover {
+    background-color: aqua;
+    border-bottom: 1px solid black;
+}
+
+header nav ul li a:active {
+    background-color: brown;
+}
+
+
+
+main .articulo {
+    display: flex;
+}
+
+main .primera {
+    display: flex;
+}
+
+main .primera .imagen-1 {
+    width: 100%;
+    height: 300px;
+    border: solid;
+}
+
+main .primera .imagen-2 {
+    width: 100%;
+    height: 300px;
+    border: solid;
+    display: inline-block;
+}
+
+main .primera .imagen-3 {
+    width: 100%;
+    height: 300px;
+    border: solid;
+    display: inline-block;
+}
+
+main .segunda {
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    border: solid green;
+
+}
+
+main .segunda .historia-foto {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*ESTILO DE PÁGINA "BALNEARIOS"*/
+
+.contenedor-grilla .border {
+    border: solid red;
+}
+
+.contenedor-grilla {
+    width: 95%;
+    height: 100vh;
+    border: red solid;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 150px repeat(3, 180px);
+    grid-template-areas:
+    "contenedor-grilla-h1 contenedor-grilla-h1 contenedor-grilla-h1"
+    "baño-dioses" "texto-1" "imagen-lugar-1"
+    "pozo-cartagena" "texto-2" "imagen-lugar-2"
+    "balneario-capilla" "texto-3" "imagen-lugar-3"
+    ;
+
+}
+
+.contenedor-grilla-h1 {
+    grid-column: contenedor-grilla-h1;
+}
+
+.contenedor-grilla .baño-dioses {
+    grid-column: baño-dioses;
+}
+
+.contenedor-grilla .texto-1 {
+    grid-column: "texto-1";
+}
+
+
+
+
+.contenedor-grilla img {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: solid red;
+    margin-top: 60px;
+}
+
+footer .mapa {
+    display: inline;
+}
+
+footer div ul li {
+    width: 30px;
+    height: 60px;
+}
+
+
