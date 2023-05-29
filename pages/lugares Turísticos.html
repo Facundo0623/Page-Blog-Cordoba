@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+
         <link rel="stylesheet" href="../css/style.css">
         <title>Primeras Vacaciones</title>
         <!--FAVICON-->
@@ -14,34 +17,81 @@
         <header>
             <nav>
                 <h1>CORDOBA</h1>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./primeras Vacaciones.html">Primeras Vacaciones</a></li>
-                    <li><a href="#">Lugares Turísticos</a></li>
-                    <li><a href="./balnearios.html">Balnearios</a></li>
-                    <li><a href="./ayuda.html">Ayuda</a></li>
+
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item"><a href="../index.html">Inicio</a></li>
+                    <li class="list-group-item"><a href="./primeras Vacaciones.html">Primeras Vacaciones</a></li>
+                    <li class="list-group-item"><a href="#">Lugares Turísticos</a></li>
+                    <li class="list-group-item"><a href="./balnearios.html">Balnearios</a></li>
+                    <li class="list-group-item"><a href="./ayuda.html">Ayuda</a></li>
                 </ul>
+
             </nav>
         </header>
         
         <main>
-            <h1>Un destino lleno de lugares para visitar y conocer</h1>
-                <ul>
-                    <li>Cerro Colorado</li>
-                    <li>El Camino Real</li>
-                    <li>Capital, Urbe Histórica</li>
-                </ul>
+
+            <div class="container">
+                <h1>Un destino lleno de lugares para visitar y conocer</h1>
+            </div>
+
         </main>
+        
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/image/cerro-colorado.jpg" class="d-block w-100" alt="cerro-img">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cerro Colorado</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/image/el-camino.webp" class="d-block w-100" alt="camino-img">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>El Camino Real</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/image/Area-Capital.jpg" class="d-block w-100" alt="capital-img">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Capital, Urbe Histórica</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <div class="conteiner-fluid">
+            <div class="row">
+                <div class="col-md-4 col-xs-2"><h2>Cerro Colorado</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, odio vitae ullam deserunt ad rerum asperiores provident, iusto quod, quo blanditiis voluptatum rem. Dolore in illum consectetur quis ad eius officia earum maiores natus veniam dolorem provident officiis adipisci nam sequi hic ratione iusto architecto, ullam quibusdam minima delectus? Ullam natus harum nesciunt soluta esse corporis atque iusto. Alias molestias illo praesentium quam voluptatibus laborum dolores doloribus, nesciunt distinctio beatae delectus veritatis sapiente debitis repudiandae minima sit saepe quos ipsam sed eligendi ad dolorem officiis voluptate maxime! Assumenda placeat consequatur ipsam, voluptatibus vero reprehenderit? Odio magni mollitia enim vitae suscipit.
+                </div>
+                <div class="col-md-4"><h2>El Camino Real</h2>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt repudiandae, ipsam, sint quam dicta cupiditate facere recusandae ducimus blanditiis, voluptatem placeat. Qui officia quae aperiam voluptatibus mollitia quia sed cupiditate soluta magnam. Cupiditate repellendus illo delectus, iste facere quos tempore, expedita possimus, perspiciatis reprehenderit adipisci sint minima? Quasi, ex necessitatibus voluptate aliquid laborum, cum sapiente nesciunt adipisci voluptatum quia fugiat facere provident quas illo sequi. Amet unde voluptas consequatur vel. Quam ullam itaque sed quibusdam ea illum fugit nihil quod voluptatibus, error corrupti est! Id, laudantium laborum, voluptas tempore eveniet nulla quas incidunt quisquam cum nemo molestias perferendis doloremque officia!
+                </div>
+                <div class="col-md-4"><h2>Capital, Urbe Histórica</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quidem, saepe, adipisci sunt voluptates excepturi optio eveniet, ratione quo dignissimos nesciunt accusantium accusamus in nam similique praesentium laboriosam magni quibusdam tempora ad quae. Doloremque minus sit, laborum cumque deserunt adipisci ipsa blanditiis consequuntur nobis dolorem reprehenderit rem tempore illo nihil quidem hic aut culpa, corrupti excepturi quasi? Commodi, molestiae dignissimos! Facere quos dolor maxime reprehenderit dignissimos soluta, architecto temporibus! A ad et deleniti sint dolor fuga suscipit inventore ex, temporibus blanditiis vero commodi tempora id repellat autem. Culpa doloribus esse itaque quas? Praesentium dolore id rerum aspernatur. Cupiditate qui distinctio reprehenderit voluptate, suscipit quae eum iure? Illo eveniet expedita vitae laudantium iusto dignissimos nihil nobis ad. Animi ab aut consequuntur!
+                </div>
+            </div>
+        </div>
 
         <section>
-            <h2>Cerro Colorado</h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, odio vitae ullam deserunt ad rerum asperiores provident, iusto quod, quo blanditiis voluptatum rem. Dolore in illum consectetur quis ad eius officia earum maiores natus veniam dolorem provident officiis adipisci nam sequi hic ratione iusto architecto, ullam quibusdam minima delectus? Ullam natus harum nesciunt soluta esse corporis atque iusto. Alias molestias illo praesentium quam voluptatibus laborum dolores doloribus, nesciunt distinctio beatae delectus veritatis sapiente debitis repudiandae minima sit saepe quos ipsam sed eligendi ad dolorem officiis voluptate maxime! Assumenda placeat consequatur ipsam, voluptatibus vero reprehenderit? Odio magni mollitia enim vitae suscipit.
-
-            <h2>El Camino Real</h2>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt repudiandae, ipsam, sint quam dicta cupiditate facere recusandae ducimus blanditiis, voluptatem placeat. Qui officia quae aperiam voluptatibus mollitia quia sed cupiditate soluta magnam. Cupiditate repellendus illo delectus, iste facere quos tempore, expedita possimus, perspiciatis reprehenderit adipisci sint minima? Quasi, ex necessitatibus voluptate aliquid laborum, cum sapiente nesciunt adipisci voluptatum quia fugiat facere provident quas illo sequi. Amet unde voluptas consequatur vel. Quam ullam itaque sed quibusdam ea illum fugit nihil quod voluptatibus, error corrupti est! Id, laudantium laborum, voluptas tempore eveniet nulla quas incidunt quisquam cum nemo molestias perferendis doloremque officia!
-
-            <h2>Capital, Urbe Histórica</h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quidem, saepe, adipisci sunt voluptates excepturi optio eveniet, ratione quo dignissimos nesciunt accusantium accusamus in nam similique praesentium laboriosam magni quibusdam tempora ad quae. Doloremque minus sit, laborum cumque deserunt adipisci ipsa blanditiis consequuntur nobis dolorem reprehenderit rem tempore illo nihil quidem hic aut culpa, corrupti excepturi quasi? Commodi, molestiae dignissimos! Facere quos dolor maxime reprehenderit dignissimos soluta, architecto temporibus! A ad et deleniti sint dolor fuga suscipit inventore ex, temporibus blanditiis vero commodi tempora id repellat autem. Culpa doloribus esse itaque quas? Praesentium dolore id rerum aspernatur. Cupiditate qui distinctio reprehenderit voluptate, suscipit quae eum iure? Illo eveniet expedita vitae laudantium iusto dignissimos nihil nobis ad. Animi ab aut consequuntur!
+            
         </section>
         <footer>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217972.16815790645!2d-64.24443533417964!3d-31.391660722596665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985f478f5b69%3A0xb0a24f9a5366b092!2zQ8OzcmRvYmE!5e0!3m2!1ses-419!2sar!4v1682608709321!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -53,5 +103,8 @@
                 </ul>
             </div>
         </footer>
+        <!--LIBRERÍA BOOTSTRAP-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+        
     </body>
 </html>

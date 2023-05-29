@@ -10,7 +10,7 @@ a:link , a:visited , a:active {
 }
 
 header {
-    height: 70px;
+    height: 100px;
     width: 100%;
     background-color: rgb(255, 228, 196);
 }
@@ -125,7 +125,6 @@ main .segunda .historia-foto {
     width: 150px;
     height: 150px;
 }
-
 
 
 
