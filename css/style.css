@@ -1,6 +1,6 @@
 *{
     margin: auto;
-    list-style: none;
+    margin-right: auto;
     box-sizing: border-box;
 }
 
@@ -44,23 +44,24 @@ main .articulo {
 
 main .primera {
     display: flex;
+    width: 100vw;
 }
 
 main .primera .imagen-1 {
-    width: 100%;
+    width: 30%;
     height: 300px;
     border: solid;
 }
 
 main .primera .imagen-2 {
-    width: 100%;
+    width: 30%;
     height: 300px;
     border: solid;
     display: inline-block;
 }
 
 main .primera .imagen-3 {
-    width: 100%;
+    width: 30%;
     height: 300px;
     border: solid;
     display: inline-block;
