@@ -86,45 +86,12 @@ main .segunda .historia-foto {
 
 /*ESTILO DE PÁGINA "BALNEARIOS"*/
 
-.contenedor-grilla .border {
-    border: solid red;
-}
-
-.contenedor-grilla {
-    width: 95%;
-    height: 100vh;
-    border: red solid;
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 150px repeat(3, 180px);
-    grid-template-areas:
-    "contenedor-grilla-h1 contenedor-grilla-h1 contenedor-grilla-h1"
-    "baño-dioses" "texto-1" "imagen-lugar-1"
-    "pozo-cartagena" "texto-2" "imagen-lugar-2"
-    "balneario-capilla" "texto-3" "imagen-lugar-3"
-    ;
-
-}
 
 .contenedor-grilla-h1 {
-    grid-column: contenedor-grilla-h1;
+    display: flex;
+    justify-content: center;
 }
 
-.contenedor-grilla .baño-dioses {
-    grid-column: baño-dioses;
-}
-
-.contenedor-grilla .texto-1 {
-    grid-column: "texto-1";
-}
-
-
-
-
-.contenedor-grilla img {
-    width: 150px;
-    height: 150px;
-}
 
 
 
