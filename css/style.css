@@ -86,8 +86,64 @@ main .segunda .historia-foto {
 
 /*ESTILO DE PÁGINA "BALNEARIOS"*/
 
+.contenedor-grilla-h1 {
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: 200px repeat(3, 350px);
+    grid-template-areas: 
+    "titulo-1 titulo-1 titulo-1"
+    "lugar-1 texto-1 contenedor-foto-1"
+    "lugar-2 texto-2 contenedor-foto-2"
+    "lugar-3 texto-3 contenedor-foto-3"
+    ;
+}
+
+.titulo-1 {
+    grid-area: titulo-1;
+}
+
+.lugar-1 {
+    grid-area: lugar-1;
+}
+
+.texto-1 {
+    grid-area: texto-1;
+}
+
+.contenedor-foto-1 {
+    grid-area: contenedor-foto-1;
+}
+
+.lugar-2 {
+    grid-area: lugar-2;
+}
+
+.texto-2 {
+    grid-area: texto-2;
+}
+
+.contenedor-foto-2 {
+    grid-area: contenedor-foto-2;
+}
+
+.lugar-3 {
+    grid-area: lugar-3;
+}
+
+.texto-3 {
+    grid-area: texto-3;
+}
+
+.contenedor-foto-3 {
+    grid-area: contenedor-foto-3;
+}
 
 
+.contenedor-grilla-h1 img {
+    width: 300px;
+    height: 300px;
+}
 
 
 
