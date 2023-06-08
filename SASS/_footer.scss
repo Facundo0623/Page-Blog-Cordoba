@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: $bordes-cajas;
+    margin-top: 60px;
+    footer .mapa {
+        display: inline;
+    }
+    footer div ul li {
+        width: 30px;
+        height: 60px;
+    }
+}
