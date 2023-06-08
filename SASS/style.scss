@@ -1,3 +1,7 @@
+//VARIABLE PARA CAJAS//
+$bordes-cajas: 2px solid blue;
+
+
 *{
     margin: auto;
     margin-right: auto;
@@ -27,7 +31,7 @@ header nav ul li {
     margin-left: 20px;
     header nav ul li a:hover {
         background-color: aqua;
-        border-bottom: 1px solid black;
+        border-bottom: $bordes-cajas;
     }
 }
 
@@ -43,6 +47,8 @@ main .articulo {
     display: flex;
 }
 
+//TRES FOTOS DE PÁGINA PRINCIPAL//
+
 main .primera {
     display: flex;
     width: 100vw;
@@ -51,20 +57,20 @@ main .primera {
 main .primera .imagen-1 {
     width: 30%;
     height: 300px;
-    border: solid;
+    border: $bordes-cajas;
 }
 
 main .primera .imagen-2 {
     width: 30%;
     height: 300px;
-    border: solid;
+    border: $bordes-cajas;
     display: inline-block;
 }
 
 main .primera .imagen-3 {
     width: 30%;
     height: 300px;
-    border: solid;
+    border: $bordes-cajas;
     display: inline-block;
 }
 
@@ -75,7 +81,7 @@ main .segunda {
     margin-left: 5%;
     display: flex;
     flex-direction: column;
-    border: solid green;
+    border: $bordes-cajas;
 
 }
 
@@ -165,7 +171,7 @@ main .segunda .historia-foto {
 footer {
     display: flex;
     justify-content: space-between;
-    border: solid red;
+    border: $bordes-cajas;
     margin-top: 60px;
     footer .mapa {
         display: inline;
