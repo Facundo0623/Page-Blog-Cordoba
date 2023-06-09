@@ -1,0 +1,3 @@
+Si NODE les crea una carpeta NODE,
+creamos en la razin un ".git_ignore" y dentro
+escribimos la siguiente linea /node_modules

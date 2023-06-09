@@ -9,6 +9,9 @@ $bordes-cajas: 2px solid blue;
 //IMPORT GRILLA-BALNEARIOS//
 @import "grilla";
 
+//IMPORT PARA PRIMERAS VACAIONES//
+@import "primeras-vacaciones";
+
 
 *{
     margin: auto;
@@ -97,28 +100,4 @@ main .segunda .historia-foto {
     display: flex;
     justify-content: space-between;
 }
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

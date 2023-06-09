@@ -67,6 +67,62 @@ footer footer div ul li {
   height: 300px;
 }
 
+.gradiente-radial1 {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background-image: radial-gradient(circle, yellow, green);
+}
+
+.gradiente1 {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(rgb(167, 156, 156), rgb(46, 43, 43));
+}
+
+.gradiente2 {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(blue, rgba(104, 91, 91, 0.753));
+}
+
+.gradiente3 {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(rgb(185, 36, 36), rgb(221, 147, 10));
+}
+
+.gradiente4 {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(rgb(177, 54, 54), rgb(184, 44, 44));
+}
+
+.gradiente5 {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(rgb(189, 189, 73), rgb(252, 170, 18));
+}
+
+.gradiente6 {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(rgb(16, 207, 221), rgb(231, 239, 241));
+}
+
 * {
   margin: auto;
   margin-right: auto;
