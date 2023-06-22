@@ -4,6 +4,7 @@ footer {
   justify-content: space-between;
   border: 2px solid blue;
   margin-top: 60px;
+  margin-bottom: 0px;
 }
 footer footer .mapa {
   display: inline;
@@ -166,25 +167,27 @@ main .articulo {
 
 main .primera {
   display: flex;
-  width: 100vw;
+  width: 80%;
 }
 
 main .primera .imagen-1 {
-  width: 30%;
+  width: 35%;
   height: 300px;
   border: 2px solid blue;
 }
 
 main .primera .imagen-2 {
-  width: 30%;
+  width: 35%;
   height: 300px;
   border: 2px solid blue;
   display: inline-block;
 }
 
 main .primera .imagen-3 {
-  width: 30%;
+  width: 35%;
   height: 300px;
+  margin-left: 0%;
+  margin-right: 0%;
   border: 2px solid blue;
   display: inline-block;
 }

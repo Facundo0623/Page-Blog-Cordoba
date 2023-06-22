@@ -13,6 +13,12 @@ $bordes-cajas: 2px solid blue;
 @import "primeras-vacaciones";
 
 
+@import "_media-queries";
+
+
+
+
+
 *{
     margin: auto;
     margin-right: auto;
@@ -62,25 +68,27 @@ main .articulo {
 
 main .primera {
     display: flex;
-    width: 100vw;
+    width: 80%;
 }
 
 main .primera .imagen-1 {
-    width: 30%;
+    width: 35%;
     height: 300px;
     border: $bordes-cajas;
 }
 
 main .primera .imagen-2 {
-    width: 30%;
+    width: 35%;
     height: 300px;
     border: $bordes-cajas;
     display: inline-block;
 }
 
 main .primera .imagen-3 {
-    width: 30%;
+    width: 35%;
     height: 300px;
+    margin-left: 0%;
+    margin-right: 0%;
     border: $bordes-cajas;
     display: inline-block;
 }
