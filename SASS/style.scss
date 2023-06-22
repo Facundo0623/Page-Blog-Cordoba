@@ -69,6 +69,9 @@ main .articulo {
 main .primera {
     display: flex;
     width: 80%;
+    @include mobile {
+        flex-direction: column;
+    }
 }
 
 main .primera .imagen-1 {
@@ -87,8 +90,6 @@ main .primera .imagen-2 {
 main .primera .imagen-3 {
     width: 35%;
     height: 300px;
-    margin-left: 0%;
-    margin-right: 0%;
     border: $bordes-cajas;
     display: inline-block;
 }
@@ -101,11 +102,23 @@ main .segunda {
     display: flex;
     flex-direction: column;
     border: $bordes-cajas;
+    @include mobile {
+        flex-direction: column;
+    }
 
+}
+
+main .titulo-historia {
+    @include mobile {
+        flex-direction: column;
+    }
 }
 
 main .segunda .historia-foto {
     display: flex;
     justify-content: space-between;
+    @include mobile {
+        flex-direction: column;
+    }
 }
 

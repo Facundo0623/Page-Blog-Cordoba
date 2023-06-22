@@ -169,6 +169,11 @@ main .primera {
   display: flex;
   width: 80%;
 }
+@media screen and (max-width: 576px) {
+  main .primera {
+    flex-direction: column;
+  }
+}
 
 main .primera .imagen-1 {
   width: 35%;
@@ -186,8 +191,6 @@ main .primera .imagen-2 {
 main .primera .imagen-3 {
   width: 35%;
   height: 300px;
-  margin-left: 0%;
-  margin-right: 0%;
   border: 2px solid blue;
   display: inline-block;
 }
@@ -201,10 +204,26 @@ main .segunda {
   flex-direction: column;
   border: 2px solid blue;
 }
+@media screen and (max-width: 576px) {
+  main .segunda {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main .titulo-historia {
+    flex-direction: column;
+  }
+}
 
 main .segunda .historia-foto {
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  main .segunda .historia-foto {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
