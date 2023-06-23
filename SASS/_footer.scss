@@ -25,5 +25,15 @@ footer {
             width: 100%;
         }
     }
-    
+}
+//contenedor de footer de "primeras vacaciones responsive"//
+.iframe-contenedor {
+    iframe {
+        width: 200%;
+        @media (max-width: 768px) {
+            flex-direction: column;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
 }

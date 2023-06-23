@@ -22,6 +22,17 @@ footer div ul li {
   }
 }
 
+.iframe-contenedor iframe {
+  width: 200%;
+}
+@media (max-width: 768px) {
+  .iframe-contenedor iframe {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 /*ESTILO DE PÁGINA "BALNEARIOS"*/
 .contenedor-grilla-h1 {
   display: grid;
@@ -34,7 +45,7 @@ footer div ul li {
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
-    grid-template-areas: "titulo-1" "texto-1" "contenedor-foto-1" "titulo-2" "texto-2" "contenedor-foto-2" "titulo-3" "texto-3" "contenedor-foto-3";
+    grid-template-areas: "titulo-1" "lugar-1" "texto-1" "contenedor-foto-1" "lugar-2" "texto-2" "contenedor-foto-2" "lugar-3" "texto-3" "contenedor-foto-3";
   }
   .contenedor-grilla-h1 .titulo-1 {
     grid-area: titulo-1;
