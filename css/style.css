@@ -135,6 +135,10 @@ a:link, a:visited, a:active {
   transition: 0.5s;
 }
 
+.list-group-horizontal {
+  flex-direction: row;
+}
+
 header {
   background-color: rgb(255, 228, 196);
   height: 150px;
