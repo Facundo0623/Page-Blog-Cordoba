@@ -33,6 +33,14 @@ a:link , a:visited , a:active {
 header {
     height: 150px;
     width: 100%;
+    
+    header ul li {
+        @include mobile-2 {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
     background-color: rgb(255, 228, 196);
 }
 
@@ -42,6 +50,8 @@ header h1 {
     margin-left: 250px;
 }
 
+
+
 header nav ul li {
     display: inline-block;
     font-size: 20px;
@@ -50,6 +60,7 @@ header nav ul li {
         background-color: aqua;
         border-bottom: $bordes-cajas;
     }
+    
 }
 
 
