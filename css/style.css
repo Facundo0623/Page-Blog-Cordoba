@@ -6,12 +6,20 @@ footer {
   margin-top: 60px;
   margin-bottom: 0px;
 }
-footer footer .mapa {
+footer .mapa {
   display: inline;
 }
-footer footer div ul li {
-  width: 30px;
-  height: 60px;
+footer div ul li {
+  width: 60px;
+  height: 90px;
+}
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
+  footer div {
+    width: 100%;
+  }
 }
 
 /*ESTILO DE PÁGINA "BALNEARIOS"*/
@@ -135,22 +143,29 @@ a:link, a:visited, a:active {
   transition: 0.5s;
 }
 
-.list-group-horizontal {
-  flex-direction: row;
-}
-
 header {
   background-color: rgb(255, 228, 196);
-  height: 150px;
-  width: 100%;
-}
-@media screen and (max-width: 768px) {
-  header ul {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  nav li:last-child {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
 header h1 {
   font-size: 30px;
   justify-content: center;
