@@ -1,10 +1,4 @@
 /*ESTILO DE PÁGINA "BALNEARIOS"*/
-@mixin mobile {
-    @media screen and (max-width: 576px) {
-        @content
-    }
-
-}
 
 .contenedor-grilla-h1 {
     margin-left: 10%;

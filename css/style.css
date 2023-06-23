@@ -24,7 +24,6 @@ footer div ul li {
 
 /*ESTILO DE PÁGINA "BALNEARIOS"*/
 .contenedor-grilla-h1 {
-  margin-left: 10%;
   display: grid;
   grid-template-columns: repeat(3, 350px);
   grid-template-rows: 200px repeat(3, 350px);
